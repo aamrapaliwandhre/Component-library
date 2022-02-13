@@ -1,0 +1,121 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper{
+    width: 70%;
+    height: 70%;
+    border-color: black;
+    border-width: 0.13rem;
+    display: flex;
+   align-items: center;
+
+}
+
+.loginRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginDesc{
+    font-size: 1.5em;
+}
+
+.loginBox{
+    height: 18.75rem;
+    padding: 1.25rem;
+    background-color: white;
+    border-radius: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem 2rem 2rem 8rem;
+}
+
+.loginInput{
+    height: 50px;
+    border-radius: 0.625rem;
+    border: 1px solid gray;
+    font-size: 1.25em;
+    padding-left: 1.25rem;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginButton{
+    height: 3.12rem;
+    border-radius: 0.625rem;
+    border: none;
+    background-color: #ad2b73;
+    color: white;
+    font-size: 1.25em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginButton:focus{
+    outline: none;
+}
+
+.loginForgot{
+    text-align: center;
+    color: #ad2b73;
+}
+.loginRegisterButton{
+    width: 100%;
+    align-self: center;
+    height: 3.12rem;
+    border-radius: 0.625rem;
+    border: none;
+    background-color: #8f2fdd;
+    color: white;
+    font-size: 1.25em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.text{
+    padding: 11rem;
+}
+
+/* error input  */
+
+.input-group {
+    color: #333;
+    float: left;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 20px 10px;
+    width: 200px;
+  }
+  
+.password-label {
+    display: block;
+    margin-bottom: 2px;
+  }
+  
+.error-message {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+  }
+
+.error .password-label {
+    color: #cc0033;
+  }
+  
+.error .loginInput {
+    background-color: #fce4e4;
+    border: 1px solid #cc0033;
+    outline: none;
+  }
+
