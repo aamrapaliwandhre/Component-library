@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-<<<<<<< Updated upstream
+
 @import "./Components/navBar/navbar.css";
-=======
+
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Quintessential&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import"./Components/navBar/navbar.css";
+
 @import"./Components/alert/alert.css";
 @import "./Components/avatar/avatar.css";
 @import "./Components/Badges/badges.css";
 @import "./Components/Button/button.css";
 @import "./Components/card/card.css";
 @import "./Components/Image/image.css";
+
 @import "./Components/Input/input.css";
 
 :root{
@@ -32,11 +34,54 @@
     --info-button: #e9f3f5;
 }
 
->>>>>>> Stashed changes
+
 body {
   background-color: var(--white);
   font-family: poppins;
   overflow-x: hidden;
   max-width: 2000px;
   margin: auto;
+}
+
+.flex-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-row-center-vertical{
+  align-items: center;
+}
+.flex-row-center-horizontal{
+  justify-content: center;
+}
+.flex-row-center-horizontal-vertical{
+  align-items: center;
+  justify-content: center;
+}
+.flex-gap-1{
+  gap: 1rem;
+}
+.flex-gap-2{
+  gap: 2rem;
+}
+.flex-gap-3{
+  gap: 3rem;
+}
+.center{
+  margin: auto;
+}
+button{
+  border: none;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+
+@media only screen and (max-width: 600px){
+  *{
+      font-size: 80%;
+  }
 }
