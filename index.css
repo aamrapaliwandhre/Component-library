@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 @import "./Components/navBar/navbar.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Quintessential&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import"./Components/navBar/navbar.css";
+
 @import"./Components/alert/alert.css";
 @import "./Components/avatar/avatar.css";
 @import "./Components/Badges/badges.css";
 @import "./Components/Button/button.css";
 @import "./Components/card/card.css";
 @import "./Components/Image/image.css";
+
+@import "./Components/Input/input.css";
 
 :root{
   --secondary-color: #1E2063;
@@ -26,6 +33,7 @@
     --warning-button: #ffc107;
     --info-button: #e9f3f5;
 }
+
 
 body {
   background-color: var(--white);
