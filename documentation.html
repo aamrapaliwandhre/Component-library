@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UI</title>
+  <!-- Link to stylesheet -->
+  <!-- <link rel="stylesheet" href="./Components/component.css" /> -->
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="documentation.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <nav class="navbar">
+
+    <div class="nav-items-container">
+      <a class="nav-item " href="index.html"><span class="logo-font">EasyPeasy</span> <span class="UI-logo-font">UI</span></a>
+
+      <a class="nav-item " href="index.html">Home</a>
+      <a class="nav-item ">Documentation</a>
+      <a class="nav-item " href="index.html">Installation</a>
+
+    </div>
+  </nav>
+  <main class="documentation-container">
+
+    <section class="components-container">
+      <!-- Alerts section -->
+      <section class="component-section" id="alerts-section">
+        <p class="component-heading">Alerts</p>
+        <p class="component-subheading">
+          Alerts are used to attract user's attention for important
+          information without interrupting the user's flow.
+        </p>
+        <p class="component-subheading bold-text">
+          Example of Alerts
+        </p>
+        <div class="component-example ">
+
+          <!--error Alert-->
+          <div class="alert alert-error">
+            Error alert example !
+          </div>
+
+          <!--Success Alert -->
+          <div class="alert alert-success">
+            Success alert example !
+          </div>
+
+          <!--Warning Alert -->
+          <div class="alert alert-warning">
+            Warning alert example !
+          </div>
+
+          <!--Info Alert -->
+          <div class="alert alert-information">
+            Information alert example !
+          </div>
+
+        </div>
+        <p class="component-text bold-text">
+          Copy html part
+          from below code snippet.
+        </p>
+        <!--Carbon Code Example-->
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--error%2520Alert--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Error%2520alert%2520example%2520%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--Success%2520Alert%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Success%2520alert%2520example%2520%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--Warning%2520Alert%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Warning%2520alert%2520example%2520%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--Info%2520Alert%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520alert-information%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Information%2520alert%2520example%2520%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+          class="code-example" sandbox="allow-scripts allow-same-origin" loading="lazy">
+        </iframe>
+      </section>
+      <!-- Avatar  start-->
+      <section class="component-section" id="avatar-section">
+        <h4 class="component-heading">Avatar</h4>
+        <p class="component-subheading">
+          Avatars are images that users can set as their profile picture. On GitHub, they're always going to be rounded
+          squares. They can be custom photos, uploaded by users, or generated as Identicons as a placeholder.
+        </p>
+        <p class="component-subheading bold-text">Example of Image Avatar</p>
+        <p class="component-text">
+          Avatar is available in 4 different sizes.
+          <span class="highlight-text">avatar-lg-size, avatar-md-size, avatar-sm-size, avatar-xs-size
+          </span>
+        </p>
+        <div class="component-example ">
+          <!-- Large  -->
+
+          <img class="avatar avatar-lg-size" src="./Assets/avatar1.png" alt="avatar" loading="lazy" />
+
+          <!-- Medium  -->
+
+          <img class="avatar avatar2 avatar-md-size" src="./Assets/avatar1.png" alt="avatar" loading="lazy" />
+
+          <!-- Small  -->
+
+          <img class="avatar avatar3 avatar-sm-size" src="./Assets/avatar1.png" alt="avatar" loading="lazy" />
+
+          <!-- Extra Small  -->
+
+          <img class="avatar avatar4 avatar-xs-size" src="./Assets/avatar1.png" alt="avatar" loading="lazy" />
+
+        </div>
+        <p class="component-text bold-text">
+          Copy html part
+          from below code snippet.
+        </p>
+        <!--Carbon Code Example-->
+        <iframe src="https://carbon.now.sh/embed/qSCYdYGkdUccWaBSjKSk" class="code-example"
+          sandbox="allow-scripts allow-same-origin" loading="lazy">
+        </iframe>
+      </section>
+
+      <!--Badges Section-->
+      <section class="component-section" id="badges-section">
+        <h4 class="component-heading">Badges</h4>
+        <p class="component-subheading">
+          Badges can notify you that there are new or unread messages or notifications , number of item in shopping cart
+          etc,.
+        </p>
+        <p class="component-subheading bold-text">
+          Example of Status Badge on Avatar
+        </p>
+        <p class="component-text">
+          4 types of status badges that can be integrated with
+          Avatars to show the status.
+        </p>
+        <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+          <!-- Online Badge green -->
+          <div class="avatar badge-container avatar-lg-size ">
+            <img class="img-responsive img-round" src="./Assets/avatar1.png" alt="avatar" />
+            <span class="badge badge-lg badge-online"></span>
+          </div>
+
+          <!-- Offline Badge red -->
+          <div class="avatar badge-container avatar-md-size ">
+            <img class="img-responsive img-round" src="./Assets/avatar1.png" alt="avatar" />
+            <span class="badge badge-md badge-offline"></span>
+          </div>
+          <!-- Away Batch yellow-->
+          <div class="avatar badge-container avatar-sm-size ">
+            <img class="img-responsive img-round" src="./Assets/avatar1.png" alt="avatar" />
+            <span class="badge badge-sm badge-away"></span>
+          </div>
+          <!-- Extra small green -->
+          <div class="avatar badge-container avatar-xs-size ">
+            <img class="img-responsive img-round" src="./Assets/avatar1.png" alt="avatar" />
+            <span class="badge badge-xs badge-online"></span>
+          </div>
+        </div>
+        <p class="component-text bold-text">
+          Copy html part
+          from below code snippet.
+        </p>
+        <!--Code Example-->
+        <iframe src="https://carbon.now.sh/embed/AS9JKBTRTU5cSfY4YEi4" class="code-example"
+          sandbox="allow-scripts allow-same-origin" loading="lazy">
+        </iframe>
+        <p class="component-subheading bold-text">Example of Badge on Icons</p>
+
+        <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+          <!-- Large Badge - with number -->
+          <div class="badge-container">
+            <img class="img-responsive" src="./Assets/cart1.png" alt="icon" />
+            <span class="number-badge number-badge-large">10+</span>
+          </div>
+
+          <!-- Medium Badge - with number -->
+          <div class="badge-container">
+            <img class="img-responsive" src="./Assets/cart1.png" alt="icon" />
+            <span class="number-badge number-badge-medium">10+</span>
+          </div>
+
+          <!-- Small Badge - with number -->
+          <div class="badge-container">
+            <img class="img-responsive" src="./Assets/cart1.png" alt="icon" />
+            <span class="number-badge number-badge-small">10+</span>
+          </div>
+
+          <!-- Badge without - number -->
+          <div class="badge-container">
+            <img class="img-responsive" src="./Assets/cart1.png" alt="icon" />
+            <span class="number-badge number-badge-sm"></span>
+          </div>
+        </div>
+        <p class="component-text bold-text">
+          Copy html part
+          from below code snippet.
+        </p>
+        <!-- Code Example -->
+        <iframe src="https://carbon.now.sh/embed/si0uZX51Ej9Rp0QmxBbW" class="code-example"
+          sandbox="allow-scripts allow-same-origin" loading="lazy">
+        </iframe>
+
+        <!--Buttons Section-->
+        <section class="component-section" id="buttons-section">
+          <h4 class="component-heading">Buttons</h4>
+          <p class="component-subheading">
+            Buttons are also called as call to action.
+          </p>
+          <p class="component-subheading bold-text">Example of Solid Buttons</p>
+          <p class="component-subheading">
+            For using solid button you can use classes
+            <span class="highlight-text">button-primary, button-secondary, button-success, button-info,
+              button-danger, link-primary, button-warning</span>.
+          </p>
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+            <!-- primary button -->
+            <button class="button button-primary">Primary</button>
+            <!-- Secondary button  -->
+            <button class="button button-secondary">Secondary</button>
+            <!-- Success button  -->
+            <button class="button button-success">Success</button>
+            <!-- info button  -->
+            <button class="button button-info">Info</button>
+            <!-- warning button  -->
+            <button class="button button-warning">Warning</button>
+            <!-- Danger button  -->
+            <button class="button button-danger">Danger</button>
+          </div>
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <!--  Code example  -->
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/urvDpzNSUwLTj7fN5xhT" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+
+          <p class="component-subheading bold-text">Example of link button</p>
+
+          </p>
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+            <!-- uing only <a> tag -->
+            <a href="#" class="button button-link">
+              Click here
+            </a>
+
+            <!-- uing <a> and <button> tag -->
+            <a href="#" class="button button-link">
+              <button>Click here</button>
+            </a>
+          </div>
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <!--  Code example  -->
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/KOm1AndGp5kOUIizcTvD" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <p class="component-subheading bold-text">Example of floating button</p>
+
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+            <a href="#" class="float">+
+              <i class="fa  my-float"></i>
+            </a>
+
+          </div>
+          </div>
+
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <!--  Code example  -->
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/KOm1AndGp5kOUIizcTvD" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <p class="component-text bold-text">Icon buttons:</p>
+
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+            <!-- for icon buttons -->
+            <div>
+              <button class="btn"><i class="fa fa-home"></i></button>
+              <button class="btn"><i class="fa fa-bars"></i></button>
+              <button class="btn"><i class="fa fa-trash"></i></button>
+              <button class="btn"><i class="fa fa-close"></i></button>
+              <button class="btn"><i class="fa fa-folder"></i></button>
+            </div>
+          </div>
+          <p class="component-text bold-text">Icon buttons with text :</p>
+
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+            <!-- for icon button with text  -->
+            <div>
+              <button class="btn"><i class="fa fa-home"></i> Home</button>
+              <button class="btn"><i class="fa fa-bars"></i> Menu</button>
+              <button class="btn"><i class="fa fa-trash"></i> Trash</button>
+              <button class="btn"><i class="fa fa-close"></i> Close</button>
+              <button class="btn"><i class="fa fa-folder"></i> Folder</button>
+            </div>
+          </div>
+
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <!--  Code example  -->
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/XS94Yf0XYVwJyQZ02Pkj" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </section>
+
+
+        <!-- Cards  -->
+
+        <!-- cards with badge  -->
+
+        <section class="component-section" id="badges-section">
+          <h4 class="component-heading">Cards</h4>
+          <p class="component-subheading bold-text">
+            Example of card with badge and shadow</p>
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+
+            <div class="container">
+              <div class="card" data-label="In Progress">
+                <div class="card__container">
+                  <h1 class="card__header">
+                    Lorem Ipsum
+                  </h1>
+                  <p class="card__body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat vestibulum, tortor orci tellus,
+                    consectetur lorem dui. Nisl aliquet egestas imperdiet gravida dolor amet nibh
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <!--  Code example  -->
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/XS94Yf0XYVwJyQZ02Pkj" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <!-- dismiss -->
+          <p class="component-subheading bold-text">
+            Example of card with dismiss .</p>
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+            <div class="dismiss" id="popup1">
+              <h2>Quite simple</h2>
+              <a class="close" href="#popup1">×</a>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, seding nonummy nibh euismod.
+              </div>
+            </div>
+          </div>
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/sYFABaMMsSN51QoF6ehl" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <!-- text overlay -->
+          <p class="component-subheading bold-text">
+            Example of card with text overlay and text only card </p>
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+            <div class="txt-overlay-container">
+              <img class="img-responsive overlay-text-img" src="./Assets/txt-overlay.jpg" alt="Snow">
+              <div class="bottom-left bold-text">Bottom Left</div>
+              <div class="top-left bold-text">Top Left</div>
+              <div class="top-right bold-text">Top Right</div>
+              <div class="bottom-right bold-text">Bottom Right</div>
+              <div class="centered bold-text">Centered text overlay example</div>
+            </div>
+
+
+            <!-- text only  -->
+
+            <div class="dismiss" id="popup1">
+              <h2>Quite simple</h2>
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, seding nonummy nibh euismod.
+              </div>
+            </div>
+          </div>
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/Pbfxv4ZYYcYgbuZ0x4eo" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/O9PRSX1BNnutW9ZQvEAh" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <!-- horizontal  -->
+          <p class="component-subheading bold-text">
+            Example of Horizontal and vertical card </p>
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+            <div class="cardhori card-horizontal">
+              <div class="image-container img-wrapper">
+                <img alt="card-image" src="./Assets/avatar1.png" class="img-responsive " />
+              </div>
+              <div class="wrapper">
+                <div class="text-container">
+                  <h5 class="font-medium-large weight-semi-bold primary-text-color">
+                    Atomic habits
+                  </h5>
+                  <p class="font-small weight-normal primary-text-color">
+                    Book for building habits
+                  </p>
+                  <p class="font-extra-small weight-normal primary-text-color">
+                    Sold by bookstore
+                  </p>
+                  <p class="font-medium weight-normal primary-text-color">
+                    White and blue printed
+                  </p>
+                </div>
+                <div class="btn-container">
+                  <button class="button button-primary">
+                    <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                    Primary
+                  </button>
+                  <button class="button button-outline-secondary">
+                    Secondary
+                  </button>
+                </div>
+              </div>
+            </div>
+
+
+
+            <!-- vertical  -->
+
+            <div class="cardv">
+              <div class="price-corner"></div>
+              <div class="img-wrapper">
+                <img src="./Assets/avatar1.png" alt="">
+              </div>
+              <div class="content-wrapper">
+                <h3 class="title">Men Sweatshirt</h3>
+                <p class="price">Rs.100</p>
+                <div class="inner-content-wrapper">
+                  <p class="sizes">sizes :
+                    <span class="active">S</span> |
+                    <span>M</span> |
+                    <span class="active">L</span> |
+                    <span>XL</span>
+                  </p>
+                  <div class="colors">
+                    <div class="color color1"></div>
+                    <div class="color color2"></div>
+                    <div class="color color3"></div>
+                    <div class="color color4"></div>
+                  </div>
+                  <div class="icons">
+                    <span class="icon icon1"><i class="fas fa-globe-europe"></i></span>
+                    <span class="icon icon2"><i class="fas fa-cart-plus"></i></span>
+                    <span class="icon icon3"><i class="far fa-heart"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/v8XoycCMHcJeRRc3eYwD" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/GpJTILnC97LTUWbVoB6j" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+        </section>
+
+        <!-- Responsive images  -->
+        <section class="component-section" id="badges-section">
+          <h4 class="component-heading">Images</h4>
+          <p class="component-subheading bold-text">
+            Example of responsive image </p>
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1 ">
+            <div style="width: 70%; height: 100% ; margin: 2rem 2rem 2rem 2rem;">
+              <img class=" img-responsive " src="./Assets/chatbot1.jpg" alt="bot">
+            </div>
+          </div>
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/sidL0tFxdIvVYpaKlar0" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+
+          <!-- round images  -->
+
+          <p class="component-subheading bold-text">
+            Example of round image </p>
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1 ">
+            <div style="width: 15rem; height: 15rem ; margin: 1rem 1rem 1rem 1rem;">
+              <img class="img-round img-responsive " src="./Assets/chatbot1.jpg" alt="bot">
+            </div>
+          </div>
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/g9ZTjqgFSBzCFLlyc2Lu" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </section>
+
+
+
+        <!-- input section  -->
+        <section class="component-section" >
+          <h4 class="component-heading">Input</h4>
+          <p class="component-subheading bold-text">Example of login form , simple text input and error style</p>
+          <div class="component-example flex-row flex-row-center-vertical flex-gap-1">
+            <!-- login form  -->
+            <div class="login">
+              <div class="loginWrapper">
+                <div class="loginRight">
+                  <form class="loginBox">
+                    <input placeholder="Email" type="email" required class="loginInput" />
+                    <input placeholder="Password" type="password" required class="loginInput" />
+                    <button class="loginButton" type="submit">Log In</button>
+                    <span class="loginForgot">Forgot Password?</span>
+                    <button class="loginRegisterButton">Create a new Account</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- text input  -->
+            <div class="loginRight  text">
+              <input placeholder="Email" type="text" required class="loginInput" /><br>
+              <input placeholder="Password" type="text" required class="loginInput" />
+            </div>
+
+            <!-- Input Field Error -->
+            <div class="input-group  error loginRight">
+              <label class="password-label">Password *</label>
+              <input class="loginInput" type="text">
+              <div class="error-message">Password is a required field.</div>
+            </div>
+          </div>
+
+          </div>
+          <p class="component-text bold-text">
+            Copy html part
+            from below code snippet.
+          </p>
+          <!--  Code example  -->
+          <iframe loading="lazy" src="https://carbon.now.sh/embed/a4Ro7Ysy09cRodJk1loF" class="code-example"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+
+
+
+        </section>
+
+
+
+</body>
+
+</html>

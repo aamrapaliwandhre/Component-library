@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+<<<<<<< Updated upstream
 @import "./Components/navBar/navbar.css";
+=======
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Quintessential&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import"./Components/navBar/navbar.css";
+@import"./Components/alert/alert.css";
+@import "./Components/avatar/avatar.css";
+@import "./Components/Badges/badges.css";
+@import "./Components/Button/button.css";
+@import "./Components/card/card.css";
+@import "./Components/Image/image.css";
+@import "./Components/Input/input.css";
+
+:root{
+  --secondary-color: #1E2063;
+  --secondary-color-dark:rgb(2, 2, 44);
+  --primary-color:blue;
+  --primary-color-dark:rgb(12, 12, 65);
+  --dark-green: #3ae751;
+    --light-green: #16c72a;
+    --light-red: red;
+    --dark-red: #ad020d;
+    --dark-yellow: yellow;
+    --dark-green: #024f0c;
+    /* --dark-green: #09360e; */
+    --light-red: #d90715;
+    --dark-red: #ad020d;
+    --dark-yellow: #745817;
+    --success-button: #28a745;
+    --warning-button: #ffc107;
+    --info-button: #e9f3f5;
+}
+
+>>>>>>> Stashed changes
 body {
   background-color: var(--white);
   font-family: poppins;
