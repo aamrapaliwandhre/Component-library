@@ -7,7 +7,7 @@
   position: sticky;
   top: 0;
   width: 100%;
-  height: 80px;
+  height: 5rem;
   box-shadow: 0px 5px 3px 0px #a6a6a6;
   background-color: white;
   z-index: 100;
@@ -96,28 +96,19 @@
   color: var(--violet-color);
 }
 
-.nav-item{
+
+
+/* .nav-item{  
   font-weight: 500;
   cursor: pointer;
-
-    color: var(--violet-color);
-  }
-
-.nav-item{
-    font-weight: 500;
-    cursor: pointer;
-
-  /* color: var(--violet-color); */
   color: #9d8189;
 }
 
 .nav-item{
   font-weight: 500;
   cursor: pointer;
-  /* color: white; */
-
-
-}
+ 
+} */
 
 .nav-item:hover{
 
@@ -137,6 +128,7 @@
   position: relative;
   text-decoration: none;
   font-size: 1.5625em;
-  margin: 1.563rem;
+  margin-left: 1.563em;
+  /* margin-right:1.563em ; */
 }
   
