@@ -12,27 +12,27 @@
 @import "./Components/card/card.css";
 @import "./Components/Image/image.css";
 @import "./Components/Input/input.css";
-
-@import "./Components/Input/input.css";
+@import "./Components/text/text.css";
 
 :root{
-  --secondary-color: #1E2063;
-  --secondary-color-dark:rgb(2, 2, 44);
-  --primary-color:blue;
-  --primary-color-dark:rgb(12, 12, 65);
-  --dark-green: #3ae751;
+    --secondary-color: white;
+    --secondary-color-dark:rgb(2, 2, 44);
+    --primary-color:blue;
+    --primary-color-dark:rgb(12, 12, 65);
+    --dark-green: #3ae751;
     --light-green: #16c72a;
     --light-red: red;
     --dark-red: #ad020d;
     --dark-yellow: yellow;
     --dark-green: #024f0c;
-    /* --dark-green: #09360e; */
     --light-red: #d90715;
     --dark-red: #ad020d;
     --dark-yellow: #745817;
     --success-button: #28a745;
     --warning-button: #ffc107;
     --info-button: #e9f3f5;
+    --black : black;
+    --gray : gray;
 }
 
 

@@ -29,11 +29,12 @@
 }
 .button-secondary{
     background-color: var(--secondary-color);
-    color: white;
+    color: var(--secondary-color-dark) ;
     border: 2px solid var(--secondary-color-dark);
 }
 .button-secondary:hover{
     background-color: var(--secondary-color-dark);
+    color: white;
 }
 .button-success{
     background-color: var(--success-button);
