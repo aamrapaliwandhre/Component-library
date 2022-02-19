@@ -1,0 +1,23 @@
+.rating-star{ 
+      color: #aaa;
+      text-decoration: none;
+  }
+  
+  .rating-star[href*="intent"] {
+      display:inline-block;
+      margin-top: 2rem;
+  }
+  
+  .rating {
+      margin: 0 auto 1em;
+      font-size: 1.5em;
+      overflow:hidden;
+  }
+  .rating .rating-star {
+      float:right;
+  }
+  .rating .rating-star:focus,
+  .rating .rating-star:focus ~ a{
+      color: orange;
+      cursor: pointer;
+  }

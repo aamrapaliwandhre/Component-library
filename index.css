@@ -14,6 +14,7 @@
 @import "./Components/Input/input.css";
 @import "./Components/text/text.css";
 @import "./Components/list/list.css";
+@import "./Components/Rating/rating.css";
 
 :root{
     --secondary-color: white;
