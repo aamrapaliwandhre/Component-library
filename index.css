@@ -13,6 +13,7 @@
 @import "./Components/Image/image.css";
 @import "./Components/Input/input.css";
 @import "./Components/text/text.css";
+@import "./Components/list/list.css";
 
 :root{
     --secondary-color: white;
