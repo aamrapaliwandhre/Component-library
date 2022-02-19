@@ -1,0 +1,51 @@
+
+.heading-container{
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.h1{
+    color:var(--black);
+    font-size: 4rem;
+    font-weight: 600;
+}
+.h2{
+    color: var(--black);
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.h3{
+    color: var(--black);
+    font-size: 3rem;
+    font-weight: 600;
+}
+.h4{
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.h5{
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: 600;
+}
+.h6{
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.strike-through{
+    text-decoration: line-through;
+}
+
+.text-small{
+    font-size: 1rem;
+}
+
+.gray-text{
+    color: var(--gray);
+}
+
+.centered-text{
+   text-align: center;
+}
