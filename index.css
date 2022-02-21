@@ -80,6 +80,17 @@ button{
   flex-direction: column;
   flex-wrap: wrap;
 }
+.installation-heading{
+  margin-top: 8rem;
+  font-size: 2em;
+  margin-left: 20rem;
+  font-weight: bold;
+}
+.installation-text{
+  font-size: 1.2em;
+  margin-left: 20rem;
+  margin-right: 40rem;
+}
 
 
 
