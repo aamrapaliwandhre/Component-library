@@ -1,1 +1,1 @@
-# component-library
+# EasyPeasy UI
