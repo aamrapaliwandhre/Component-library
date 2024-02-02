@@ -83,7 +83,7 @@ button{
 .installation-heading{
   margin-top: 8rem;
   font-size: 2em;
-  margin-left: 20rem;
+/*   margin-left: 20rem; */
   font-weight: bold;
 }
 .installation-text{
